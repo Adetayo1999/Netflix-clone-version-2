@@ -1,0 +1,20 @@
+
+.collection{
+    padding: 1rem 1rem 1rem 4rem;
+}
+
+.collection h2{
+    margin-bottom:10px;
+
+}
+
+.collection__bottom{
+    display:flex;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    padding: 0.5rem 0;
+}
+
+.collection__bottom::-webkit-scrollbar{
+    display:none;
+}

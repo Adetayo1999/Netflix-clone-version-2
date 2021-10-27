@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  transition: 0.3s ease-in;
+}
+
+header.changecolor {
+  background: rgba(0, 0, 0, 0.93);
+}
+
+.logo {
+  height: 70px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.usericon {
+  height: 60px;
+  object-fit: contain;
+}
